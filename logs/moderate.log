@@ -1,0 +1,1564 @@
+Configurations - 2025-07-03 16:37:18
+-----------------------------------------------------------------------------------------------------------------
+|order |                                          keys |                                                  values|
+-----------------------------------------------------------------------------------------------------------------
+|    1 |                                         model |                                      FourierDehazeNet_s|
+|    2 |                               resume_training |                                                    None|
+|    3 |                                  dataset_path | E:\PythonProject\DehazeProject\data\SateHaze1K\Haze1k_moderate|
+|    4 |                                          seed |                                                      11|
+|    5 |                                        epochs |                                                     500|
+|    6 |                                   input_shape |                                              [256, 256]|
+|    7 |                                    batch_size |                                                       2|
+|    8 |                                       log_dir |                                                  ./logs|
+|    9 |                                            lr |                                                  0.0002|
+|   10 |                                      momentum |                                                     0.9|
+|   11 |                                  weight_decay |                                                  0.0001|
+|   12 |                                     optimizer |                                                   adamw|
+|   13 |                                           amp |                                                   False|
+-----------------------------------------------------------------------------------------------------------------
+无权重训练 FourierDehazeNet_s
+1 - psnr: 20.357319407992893, ssim: 0.7031545148955451
+Epoch:1/500
+Total Loss: 0.37015 || Val Loss: 0.26213 
+Best model saved at epoch —— 1, metric —— 20.357319407992893
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+2 - psnr: 16.689142518573338, ssim: 0.6377372576130761
+Epoch:2/500
+Total Loss: 0.32876 || Val Loss: 0.24907 
+3 - psnr: 21.529004176457722, ssim: 0.7790434824095832
+Epoch:3/500
+Total Loss: 0.31208 || Val Loss: 0.26041 
+Best model saved at epoch —— 3, metric —— 21.529004176457722
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+4 - psnr: 21.820757150650024, ssim: 0.7973018580012852
+Epoch:4/500
+Total Loss: 0.30899 || Val Loss: 0.27216 
+Best model saved at epoch —— 4, metric —— 21.820757150650024
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+5 - psnr: 21.841528362698025, ssim: 0.8235710952017042
+Epoch:5/500
+Total Loss: 0.31262 || Val Loss: 0.32372 
+Best model saved at epoch —— 5, metric —— 21.841528362698025
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+6 - psnr: 22.399370219972397, ssim: 0.8310951762729221
+Epoch:6/500
+Total Loss: 0.30935 || Val Loss: 0.25629 
+Best model saved at epoch —— 6, metric —— 22.399370219972397
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+7 - psnr: 23.719502025180393, ssim: 0.8568705903159247
+Epoch:7/500
+Total Loss: 0.30540 || Val Loss: 0.23869 
+Best model saved at epoch —— 7, metric —— 23.719502025180393
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+8 - psnr: 20.37198077307807, ssim: 0.7994949314329359
+Epoch:8/500
+Total Loss: 0.29901 || Val Loss: 0.24007 
+9 - psnr: 23.527375353707207, ssim: 0.8557188365194532
+Epoch:9/500
+Total Loss: 0.29403 || Val Loss: 0.23245 
+10 - psnr: 24.22491714689467, ssim: 0.8658321605788337
+Epoch:10/500
+Total Loss: 0.29183 || Val Loss: 0.24246 
+Best model saved at epoch —— 10, metric —— 24.22491714689467
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+11 - psnr: 24.88295661078559, ssim: 0.8824285944302876
+Epoch:11/500
+Total Loss: 0.29509 || Val Loss: 0.23948 
+Best model saved at epoch —— 11, metric —— 24.88295661078559
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+12 - psnr: 21.15863151020474, ssim: 0.7748326341311137
+Epoch:12/500
+Total Loss: 0.30038 || Val Loss: 0.23392 
+13 - psnr: 22.679164330164593, ssim: 0.8247941335042318
+Epoch:13/500
+Total Loss: 0.29447 || Val Loss: 0.23229 
+14 - psnr: 23.541292031606037, ssim: 0.8418492582109239
+Epoch:14/500
+Total Loss: 0.31026 || Val Loss: 0.23808 
+15 - psnr: 24.310224480099148, ssim: 0.8812149074342516
+Epoch:15/500
+Total Loss: 0.29205 || Val Loss: 0.23887 
+16 - psnr: 24.631858799192642, ssim: 0.8827653209368388
+Epoch:16/500
+Total Loss: 0.28741 || Val Loss: 0.23704 
+17 - psnr: 24.64283100763957, ssim: 0.8855516115824381
+Epoch:17/500
+Total Loss: 0.28870 || Val Loss: 0.25052 
+18 - psnr: 21.24558096461826, ssim: 0.830246216721005
+Epoch:18/500
+Total Loss: 0.29078 || Val Loss: 0.22189 
+19 - psnr: 22.076949940787422, ssim: 0.8274451189570957
+Epoch:19/500
+Total Loss: 0.29287 || Val Loss: 0.24511 
+20 - psnr: 23.783361196517944, ssim: 0.8420488158861796
+Epoch:20/500
+Total Loss: 0.29058 || Val Loss: 0.22977 
+21 - psnr: 22.585125234391953, ssim: 0.821739645799001
+Epoch:21/500
+Total Loss: 0.29480 || Val Loss: 0.22757 
+22 - psnr: 23.886685927708943, ssim: 0.8588374429278903
+Epoch:22/500
+Total Loss: 0.28374 || Val Loss: 0.22956 
+23 - psnr: 23.921818097432453, ssim: 0.8619460516505771
+Epoch:23/500
+Total Loss: 0.28025 || Val Loss: 0.24020 
+24 - psnr: 22.10771719614665, ssim: 0.8174623674816556
+Epoch:24/500
+Total Loss: 0.28374 || Val Loss: 0.28030 
+25 - psnr: 24.007943815655178, ssim: 0.871361850367652
+Epoch:25/500
+Total Loss: 0.28961 || Val Loss: 0.22814 
+26 - psnr: 22.93793159061008, ssim: 0.8467683460977342
+Epoch:26/500
+Total Loss: 0.30464 || Val Loss: 0.26809 
+27 - psnr: 24.141562355889214, ssim: 0.8528704272376166
+Epoch:27/500
+Total Loss: 0.28702 || Val Loss: 0.23366 
+28 - psnr: 24.457791328430176, ssim: 0.8688847025235494
+Epoch:28/500
+Total Loss: 0.28341 || Val Loss: 0.22539 
+29 - psnr: 24.34934663772583, ssim: 0.8744904120763143
+Epoch:29/500
+Total Loss: 0.28119 || Val Loss: 0.23503 
+30 - psnr: 24.58113696840074, ssim: 0.8828574829631382
+Epoch:30/500
+Total Loss: 0.28373 || Val Loss: 0.22633 
+31 - psnr: 23.15667838520474, ssim: 0.8449633757273356
+Epoch:31/500
+Total Loss: 0.28073 || Val Loss: 0.22623 
+32 - psnr: 24.793107403649223, ssim: 0.8929914169841342
+Epoch:32/500
+Total Loss: 0.27900 || Val Loss: 0.23266 
+33 - psnr: 24.305472797817654, ssim: 0.8944004429711236
+Epoch:33/500
+Total Loss: 0.27609 || Val Loss: 0.22277 
+34 - psnr: 25.26358519660102, ssim: 0.9046262913280063
+Epoch:34/500
+Total Loss: 0.26986 || Val Loss: 0.22296 
+Best model saved at epoch —— 34, metric —— 25.26358519660102
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+35 - psnr: 25.019407537248398, ssim: 0.9025163928667704
+Epoch:35/500
+Total Loss: 0.26708 || Val Loss: 0.22052 
+36 - psnr: 23.2594649526808, ssim: 0.8593124972449409
+Epoch:36/500
+Total Loss: 0.27008 || Val Loss: 0.22875 
+37 - psnr: 22.82764024204678, ssim: 0.8402048587799072
+Epoch:37/500
+Total Loss: 0.27129 || Val Loss: 0.22010 
+38 - psnr: 24.062650044759113, ssim: 0.8902384055985345
+Epoch:38/500
+Total Loss: 0.27122 || Val Loss: 0.23025 
+39 - psnr: 25.131433301501804, ssim: 0.9000661651293437
+Epoch:39/500
+Total Loss: 0.27040 || Val Loss: 0.22397 
+40 - psnr: 24.66665569941203, ssim: 0.8945553779602051
+Epoch:40/500
+Total Loss: 0.26503 || Val Loss: 0.22847 
+41 - psnr: 25.30991972817315, ssim: 0.9004166232215034
+Epoch:41/500
+Total Loss: 0.26229 || Val Loss: 0.22677 
+Best model saved at epoch —— 41, metric —— 25.30991972817315
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+42 - psnr: 25.602367401123047, ssim: 0.9045611752404107
+Epoch:42/500
+Total Loss: 0.26150 || Val Loss: 0.22717 
+Best model saved at epoch —— 42, metric —— 25.602367401123047
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+43 - psnr: 25.1353596051534, ssim: 0.912808358669281
+Epoch:43/500
+Total Loss: 0.26389 || Val Loss: 0.22426 
+44 - psnr: 24.857076591915554, ssim: 0.8959804905785455
+Epoch:44/500
+Total Loss: 0.28467 || Val Loss: 0.22409 
+45 - psnr: 22.445856014887493, ssim: 0.8835278126928542
+Epoch:45/500
+Total Loss: 0.27068 || Val Loss: 0.23247 
+46 - psnr: 25.824692461225723, ssim: 0.9127480877770318
+Epoch:46/500
+Total Loss: 0.26468 || Val Loss: 0.22166 
+Best model saved at epoch —— 46, metric —— 25.824692461225723
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+47 - psnr: 25.748895168304443, ssim: 0.9143941071298387
+Epoch:47/500
+Total Loss: 0.26066 || Val Loss: 0.22035 
+48 - psnr: 25.209872192806667, ssim: 0.9141877743932936
+Epoch:48/500
+Total Loss: 0.25963 || Val Loss: 0.21828 
+49 - psnr: 25.335533142089844, ssim: 0.9136020832591587
+Epoch:49/500
+Total Loss: 0.26161 || Val Loss: 0.24155 
+50 - psnr: 24.699801762898762, ssim: 0.9055573993259006
+Epoch:50/500
+Total Loss: 0.26742 || Val Loss: 0.24579 
+51 - psnr: 25.318787892659504, ssim: 0.9099815845489502
+Epoch:51/500
+Total Loss: 0.27534 || Val Loss: 0.22497 
+52 - psnr: 24.634815057118733, ssim: 0.9015558030870225
+Epoch:52/500
+Total Loss: 0.26548 || Val Loss: 0.22490 
+53 - psnr: 25.890398290422226, ssim: 0.9171252952681648
+Epoch:53/500
+Total Loss: 0.26051 || Val Loss: 0.22208 
+Best model saved at epoch —— 53, metric —— 25.890398290422226
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+54 - psnr: 25.93463791741265, ssim: 0.9179326030943129
+Epoch:54/500
+Total Loss: 0.25824 || Val Loss: 0.22172 
+Best model saved at epoch —— 54, metric —— 25.93463791741265
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+55 - psnr: 24.331100092993843, ssim: 0.9202408830324809
+Epoch:55/500
+Total Loss: 0.25935 || Val Loss: 0.23720 
+56 - psnr: 25.321001953548855, ssim: 0.9118960340817769
+Epoch:56/500
+Total Loss: 0.25961 || Val Loss: 0.23539 
+57 - psnr: 25.100498888227676, ssim: 0.9004205187161763
+Epoch:57/500
+Total Loss: 0.27218 || Val Loss: 0.22895 
+58 - psnr: 25.42028257581923, ssim: 0.9058214611477322
+Epoch:58/500
+Total Loss: 0.26393 || Val Loss: 0.22026 
+59 - psnr: 24.911863644917805, ssim: 0.9151251408788893
+Epoch:59/500
+Total Loss: 0.26004 || Val Loss: 0.21740 
+60 - psnr: 25.68975321451823, ssim: 0.9183454712231954
+Epoch:60/500
+Total Loss: 0.25699 || Val Loss: 0.21852 
+61 - psnr: 26.415047698550755, ssim: 0.9266741699642606
+Epoch:61/500
+Total Loss: 0.25763 || Val Loss: 0.21989 
+Best model saved at epoch —— 61, metric —— 26.415047698550755
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+62 - psnr: 24.167717774709065, ssim: 0.9120304491784837
+Epoch:62/500
+Total Loss: 0.26041 || Val Loss: 0.23673 
+63 - psnr: 25.451305707295734, ssim: 0.9130027400122749
+Epoch:63/500
+Total Loss: 0.26735 || Val Loss: 0.21573 
+64 - psnr: 25.31453278329637, ssim: 0.9117805361747742
+Epoch:64/500
+Total Loss: 0.26204 || Val Loss: 0.22260 
+65 - psnr: 25.77269787258572, ssim: 0.9254518138037787
+Epoch:65/500
+Total Loss: 0.26085 || Val Loss: 0.21994 
+66 - psnr: 25.610011524624294, ssim: 0.9237544152471754
+Epoch:66/500
+Total Loss: 0.25518 || Val Loss: 0.21690 
+67 - psnr: 25.66031821568807, ssim: 0.925068544016944
+Epoch:67/500
+Total Loss: 0.25567 || Val Loss: 0.21674 
+68 - psnr: 26.207801077100967, ssim: 0.931722985373603
+Epoch:68/500
+Total Loss: 0.25677 || Val Loss: 0.21962 
+69 - psnr: 24.473671171400284, ssim: 0.8957633402612474
+Epoch:69/500
+Total Loss: 0.28351 || Val Loss: 0.26386 
+70 - psnr: 25.28350231382582, ssim: 0.9156849053170946
+Epoch:70/500
+Total Loss: 0.27172 || Val Loss: 0.24143 
+71 - psnr: 25.198737409379746, ssim: 0.9033547202746074
+Epoch:71/500
+Total Loss: 0.27020 || Val Loss: 0.22638 
+72 - psnr: 25.617065747578938, ssim: 0.9166381584273444
+Epoch:72/500
+Total Loss: 0.26158 || Val Loss: 0.22709 
+73 - psnr: 25.39107126659817, ssim: 0.914113023546007
+Epoch:73/500
+Total Loss: 0.25851 || Val Loss: 0.22322 
+74 - psnr: 25.44194375144111, ssim: 0.9196656041675144
+Epoch:74/500
+Total Loss: 0.25796 || Val Loss: 0.21916 
+75 - psnr: 24.382020632425945, ssim: 0.9146885673205057
+Epoch:75/500
+Total Loss: 0.26109 || Val Loss: 0.23590 
+76 - psnr: 25.643206967247856, ssim: 0.919605036576589
+Epoch:76/500
+Total Loss: 0.26916 || Val Loss: 0.22629 
+77 - psnr: 25.320761309729683, ssim: 0.9156073278850979
+Epoch:77/500
+Total Loss: 0.26162 || Val Loss: 0.22231 
+78 - psnr: 25.627763907114666, ssim: 0.9138004793061151
+Epoch:78/500
+Total Loss: 0.26034 || Val Loss: 0.22500 
+79 - psnr: 25.71795717875163, ssim: 0.9172347850269742
+Epoch:79/500
+Total Loss: 0.25776 || Val Loss: 0.22312 
+80 - psnr: 25.081019772423637, ssim: 0.9098278827137417
+Epoch:80/500
+Total Loss: 0.25586 || Val Loss: 0.21959 
+81 - psnr: 25.17900292078654, ssim: 0.9210500862863329
+Epoch:81/500
+Total Loss: 0.25789 || Val Loss: 0.23514 
+82 - psnr: 24.522767225901287, ssim: 0.9009664350085789
+Epoch:82/500
+Total Loss: 0.25781 || Val Loss: 0.22826 
+83 - psnr: 24.03171812163459, ssim: 0.9011462132136027
+Epoch:83/500
+Total Loss: 0.26253 || Val Loss: 0.21884 
+84 - psnr: 25.21591493818495, ssim: 0.9148736357688904
+Epoch:84/500
+Total Loss: 0.25653 || Val Loss: 0.22580 
+85 - psnr: 25.045416673024494, ssim: 0.9144646565119425
+Epoch:85/500
+Total Loss: 0.25330 || Val Loss: 0.22295 
+86 - psnr: 24.907897896236843, ssim: 0.9141169044706556
+Epoch:86/500
+Total Loss: 0.25366 || Val Loss: 0.22254 
+87 - psnr: 24.18951858414544, ssim: 0.9090885970327589
+Epoch:87/500
+Total Loss: 0.25389 || Val Loss: 0.22508 
+88 - psnr: 23.29316152466668, ssim: 0.9004008756743537
+Epoch:88/500
+Total Loss: 0.25772 || Val Loss: 0.23147 
+89 - psnr: 24.11025587717692, ssim: 0.9086128658718533
+Epoch:89/500
+Total Loss: 0.26095 || Val Loss: 0.23968 
+90 - psnr: 25.40330876244439, ssim: 0.9186655547883775
+Epoch:90/500
+Total Loss: 0.25678 || Val Loss: 0.21565 
+91 - psnr: 25.753313700358074, ssim: 0.9245351950327555
+Epoch:91/500
+Total Loss: 0.25315 || Val Loss: 0.21829 
+92 - psnr: 25.43714123302036, ssim: 0.9230588595072429
+Epoch:92/500
+Total Loss: 0.25095 || Val Loss: 0.21288 
+93 - psnr: 24.202479812834, ssim: 0.9164206332630581
+Epoch:93/500
+Total Loss: 0.25179 || Val Loss: 0.22130 
+94 - psnr: 24.98478078842163, ssim: 0.9237463500764634
+Epoch:94/500
+Total Loss: 0.25555 || Val Loss: 0.22409 
+95 - psnr: 25.85847849316067, ssim: 0.9293853998184204
+Epoch:95/500
+Total Loss: 0.25829 || Val Loss: 0.22211 
+96 - psnr: 25.77460289001465, ssim: 0.9243382506900364
+Epoch:96/500
+Total Loss: 0.25330 || Val Loss: 0.22061 
+97 - psnr: 25.83085044225057, ssim: 0.9273659732606676
+Epoch:97/500
+Total Loss: 0.24877 || Val Loss: 0.21861 
+98 - psnr: 25.949208948347305, ssim: 0.9283615006340875
+Epoch:98/500
+Total Loss: 0.24936 || Val Loss: 0.21753 
+99 - psnr: 25.412953270806206, ssim: 0.9268093678686354
+Epoch:99/500
+Total Loss: 0.25029 || Val Loss: 0.24056 
+100 - psnr: 25.269003709157307, ssim: 0.9227804621060689
+Epoch:100/500
+Total Loss: 0.25301 || Val Loss: 0.21948 
+101 - psnr: 23.365857283274334, ssim: 0.9138285875320434
+Epoch:101/500
+Total Loss: 0.25655 || Val Loss: 0.21902 
+102 - psnr: 24.95202175776164, ssim: 0.9232141269577874
+Epoch:102/500
+Total Loss: 0.25554 || Val Loss: 0.25513 
+103 - psnr: 26.037554899851482, ssim: 0.9300059768888685
+Epoch:103/500
+Total Loss: 0.25195 || Val Loss: 0.22203 
+104 - psnr: 26.093057685428196, ssim: 0.930869902504815
+Epoch:104/500
+Total Loss: 0.24824 || Val Loss: 0.21932 
+105 - psnr: 25.9146662818061, ssim: 0.9322378264533149
+Epoch:105/500
+Total Loss: 0.24914 || Val Loss: 0.22161 
+106 - psnr: 15.954677926169502, ssim: 0.7083392348554399
+Epoch:106/500
+Total Loss: 0.26347 || Val Loss: 0.26412 
+107 - psnr: 24.30152310265435, ssim: 0.9127778304947747
+Epoch:107/500
+Total Loss: 0.26902 || Val Loss: 0.23125 
+108 - psnr: 25.968411286671955, ssim: 0.9264193773269653
+Epoch:108/500
+Total Loss: 0.25971 || Val Loss: 0.21658 
+109 - psnr: 24.915662659539116, ssim: 0.9142413232061598
+Epoch:109/500
+Total Loss: 0.25298 || Val Loss: 0.23314 
+110 - psnr: 25.814539008670383, ssim: 0.9154843264155917
+Epoch:110/500
+Total Loss: 0.25149 || Val Loss: 0.21903 
+111 - psnr: 26.07207006878323, ssim: 0.9183848328060574
+Epoch:111/500
+Total Loss: 0.24986 || Val Loss: 0.21455 
+112 - psnr: 23.913728608025444, ssim: 0.8423819488949246
+Epoch:112/500
+Total Loss: 0.25793 || Val Loss: 0.23469 
+113 - psnr: 25.83883677588569, ssim: 0.9259755902820164
+Epoch:113/500
+Total Loss: 0.25170 || Val Loss: 0.24203 
+114 - psnr: 26.055034001668293, ssim: 0.9276297542783949
+Epoch:114/500
+Total Loss: 0.25192 || Val Loss: 0.23314 
+115 - psnr: 26.335096465216743, ssim: 0.9263049165407816
+Epoch:115/500
+Total Loss: 0.25233 || Val Loss: 0.21958 
+116 - psnr: 26.179726123809814, ssim: 0.9250850690735711
+Epoch:116/500
+Total Loss: 0.24898 || Val Loss: 0.22061 
+117 - psnr: 26.107317818535698, ssim: 0.9270376390881009
+Epoch:117/500
+Total Loss: 0.24874 || Val Loss: 0.21826 
+118 - psnr: 25.727069430881077, ssim: 0.9266973680920071
+Epoch:118/500
+Total Loss: 0.24724 || Val Loss: 0.22901 
+119 - psnr: 25.988733609517414, ssim: 0.9319962210125393
+Epoch:119/500
+Total Loss: 0.25052 || Val Loss: 0.22603 
+120 - psnr: 26.037637763553196, ssim: 0.9272529310650296
+Epoch:120/500
+Total Loss: 0.25162 || Val Loss: 0.22752 
+121 - psnr: 23.848348511589897, ssim: 0.9157773362265693
+Epoch:121/500
+Total Loss: 0.25344 || Val Loss: 0.21762 
+122 - psnr: 25.860640313890244, ssim: 0.922159132692549
+Epoch:122/500
+Total Loss: 0.25150 || Val Loss: 0.22020 
+123 - psnr: 25.734188715616863, ssim: 0.9203048997455173
+Epoch:123/500
+Total Loss: 0.24846 || Val Loss: 0.21741 
+124 - psnr: 26.123927381303574, ssim: 0.9270145230823092
+Epoch:124/500
+Total Loss: 0.24523 || Val Loss: 0.22108 
+125 - psnr: 23.84687402513292, ssim: 0.8808162887891133
+Epoch:125/500
+Total Loss: 0.24924 || Val Loss: 0.22185 
+126 - psnr: 24.24099636077881, ssim: 0.9206856727600098
+Epoch:126/500
+Total Loss: 0.26081 || Val Loss: 0.24946 
+127 - psnr: 26.41366195678711, ssim: 0.9328911277982924
+Epoch:127/500
+Total Loss: 0.25544 || Val Loss: 0.21990 
+128 - psnr: 26.213778336842854, ssim: 0.9278887576527066
+Epoch:128/500
+Total Loss: 0.25285 || Val Loss: 0.21885 
+129 - psnr: 26.36520751317342, ssim: 0.9279747698042128
+Epoch:129/500
+Total Loss: 0.24924 || Val Loss: 0.21606 
+130 - psnr: 26.53424644470215, ssim: 0.9313402613004048
+Epoch:130/500
+Total Loss: 0.24755 || Val Loss: 0.21768 
+Best model saved at epoch —— 130, metric —— 26.53424644470215
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+131 - psnr: 26.568752659691704, ssim: 0.9336143215497335
+Epoch:131/500
+Total Loss: 0.24845 || Val Loss: 0.21964 
+Best model saved at epoch —— 131, metric —— 26.568752659691704
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+132 - psnr: 25.39898501502143, ssim: 0.9041732059584724
+Epoch:132/500
+Total Loss: 0.25255 || Val Loss: 0.22177 
+133 - psnr: 25.554863029056126, ssim: 0.9129417803552415
+Epoch:133/500
+Total Loss: 0.25541 || Val Loss: 0.22418 
+134 - psnr: 25.6531466378106, ssim: 0.9252833194202847
+Epoch:134/500
+Total Loss: 0.25255 || Val Loss: 0.22388 
+135 - psnr: 26.179255538516575, ssim: 0.9275904403792488
+Epoch:135/500
+Total Loss: 0.24668 || Val Loss: 0.21886 
+136 - psnr: 25.753650135464138, ssim: 0.9250033948156569
+Epoch:136/500
+Total Loss: 0.24863 || Val Loss: 0.21692 
+137 - psnr: 25.231275770399307, ssim: 0.9277414374881321
+Epoch:137/500
+Total Loss: 0.24838 || Val Loss: 0.28988 
+138 - psnr: 25.202479786343044, ssim: 0.8903738564915127
+Epoch:138/500
+Total Loss: 0.26283 || Val Loss: 0.22258 
+139 - psnr: 25.40850485695733, ssim: 0.9295658879809909
+Epoch:139/500
+Total Loss: 0.25625 || Val Loss: 0.24099 
+140 - psnr: 25.926641994052464, ssim: 0.9298109862539503
+Epoch:140/500
+Total Loss: 0.25204 || Val Loss: 0.24992 
+141 - psnr: 26.437919934590656, ssim: 0.9292333006858826
+Epoch:141/500
+Total Loss: 0.24841 || Val Loss: 0.22617 
+142 - psnr: 26.240453508165146, ssim: 0.9293913907474942
+Epoch:142/500
+Total Loss: 0.24711 || Val Loss: 0.23225 
+143 - psnr: 26.378660731845432, ssim: 0.931376600265503
+Epoch:143/500
+Total Loss: 0.24650 || Val Loss: 0.22363 
+144 - psnr: 24.72328405910068, ssim: 0.9191853470272489
+Epoch:144/500
+Total Loss: 0.25179 || Val Loss: 0.23118 
+145 - psnr: 23.64889195230272, ssim: 0.8890749547216628
+Epoch:145/500
+Total Loss: 0.26299 || Val Loss: 0.24761 
+146 - psnr: 24.8433444764879, ssim: 0.9212478942341275
+Epoch:146/500
+Total Loss: 0.26566 || Val Loss: 0.23005 
+147 - psnr: 25.64969385994805, ssim: 0.9318669623798794
+Epoch:147/500
+Total Loss: 0.25456 || Val Loss: 0.22535 
+148 - psnr: 25.828547689649795, ssim: 0.9309305177794562
+Epoch:148/500
+Total Loss: 0.25181 || Val Loss: 0.22549 
+149 - psnr: 26.560619354248047, ssim: 0.9320696128739251
+Epoch:149/500
+Total Loss: 0.25080 || Val Loss: 0.23260 
+150 - psnr: 25.83132987552219, ssim: 0.931423811117808
+Epoch:150/500
+Total Loss: 0.25112 || Val Loss: 0.22301 
+151 - psnr: 23.33064275317722, ssim: 0.9187195327546861
+Epoch:151/500
+Total Loss: 0.25307 || Val Loss: 0.24269 
+152 - psnr: 26.8109057214525, ssim: 0.935816122425927
+Epoch:152/500
+Total Loss: 0.25234 || Val Loss: 0.21893 
+Best model saved at epoch —— 152, metric —— 26.8109057214525
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+153 - psnr: 26.179847134484184, ssim: 0.9306145813730028
+Epoch:153/500
+Total Loss: 0.24953 || Val Loss: 0.24715 
+154 - psnr: 26.23692814509074, ssim: 0.932920409573449
+Epoch:154/500
+Total Loss: 0.24602 || Val Loss: 0.24126 
+155 - psnr: 26.27128341462877, ssim: 0.9338484578662448
+Epoch:155/500
+Total Loss: 0.24561 || Val Loss: 0.25390 
+156 - psnr: 26.376172966427273, ssim: 0.934352637661828
+Epoch:156/500
+Total Loss: 0.24524 || Val Loss: 0.23937 
+157 - psnr: 26.160638067457413, ssim: 0.9315552711486816
+Epoch:157/500
+Total Loss: 0.25031 || Val Loss: 0.25617 
+158 - psnr: 25.208948400285507, ssim: 0.9294218553437127
+Epoch:158/500
+Total Loss: 0.24964 || Val Loss: 0.23907 
+159 - psnr: 25.584917227427166, ssim: 0.9248747666676839
+Epoch:159/500
+Total Loss: 0.25051 || Val Loss: 0.23492 
+160 - psnr: 25.14241541756524, ssim: 0.9322423974672953
+Epoch:160/500
+Total Loss: 0.24639 || Val Loss: 0.22626 
+161 - psnr: 26.21183994081285, ssim: 0.9334955943955315
+Epoch:161/500
+Total Loss: 0.24569 || Val Loss: 0.22541 
+162 - psnr: 26.759548717074924, ssim: 0.9354797575208876
+Epoch:162/500
+Total Loss: 0.24434 || Val Loss: 0.22642 
+163 - psnr: 25.648043049706352, ssim: 0.9256949901580811
+Epoch:163/500
+Total Loss: 0.24631 || Val Loss: 0.22492 
+164 - psnr: 26.046497980753582, ssim: 0.9323320455021329
+Epoch:164/500
+Total Loss: 0.25017 || Val Loss: 0.23342 
+165 - psnr: 25.003040048811172, ssim: 0.9275435513920254
+Epoch:165/500
+Total Loss: 0.24926 || Val Loss: 0.23551 
+166 - psnr: 25.15320963329739, ssim: 0.9321253776550293
+Epoch:166/500
+Total Loss: 0.24715 || Val Loss: 0.23624 
+167 - psnr: 25.72173023223877, ssim: 0.9357459902763366
+Epoch:167/500
+Total Loss: 0.24467 || Val Loss: 0.22597 
+168 - psnr: 26.203111701541477, ssim: 0.9354990535312229
+Epoch:168/500
+Total Loss: 0.24384 || Val Loss: 0.22037 
+169 - psnr: 25.81703562206692, ssim: 0.9352546850840251
+Epoch:169/500
+Total Loss: 0.24919 || Val Loss: 0.24263 
+170 - psnr: 25.74738597869873, ssim: 0.9349562737676832
+Epoch:170/500
+Total Loss: 0.25042 || Val Loss: 0.24325 
+171 - psnr: 25.486582385169136, ssim: 0.9301792820294698
+Epoch:171/500
+Total Loss: 0.24765 || Val Loss: 0.24767 
+172 - psnr: 26.26917356914944, ssim: 0.9341303865114848
+Epoch:172/500
+Total Loss: 0.24959 || Val Loss: 0.22554 
+173 - psnr: 25.583205964830185, ssim: 0.934424818886651
+Epoch:173/500
+Total Loss: 0.24606 || Val Loss: 0.22358 
+174 - psnr: 25.879390292697483, ssim: 0.9352783481280009
+Epoch:174/500
+Total Loss: 0.24408 || Val Loss: 0.22225 
+175 - psnr: 26.667374504937065, ssim: 0.9361192093955146
+Epoch:175/500
+Total Loss: 0.24602 || Val Loss: 0.25654 
+176 - psnr: 25.370515028635662, ssim: 0.9348382711410522
+Epoch:176/500
+Total Loss: 0.25300 || Val Loss: 0.23915 
+177 - psnr: 25.704979419708252, ssim: 0.9356984297434489
+Epoch:177/500
+Total Loss: 0.24839 || Val Loss: 0.22957 
+178 - psnr: 25.977491325802273, ssim: 0.931639043490092
+Epoch:178/500
+Total Loss: 0.24583 || Val Loss: 0.22408 
+179 - psnr: 26.284450160132515, ssim: 0.9335131446520487
+Epoch:179/500
+Total Loss: 0.24410 || Val Loss: 0.23185 
+180 - psnr: 26.601675987243652, ssim: 0.933591467804379
+Epoch:180/500
+Total Loss: 0.24248 || Val Loss: 0.22670 
+181 - psnr: 24.265464093950058, ssim: 0.9280367374420166
+Epoch:181/500
+Total Loss: 0.24276 || Val Loss: 0.22993 
+182 - psnr: 26.070404688517254, ssim: 0.9339219702614678
+Epoch:182/500
+Total Loss: 0.24843 || Val Loss: 0.23144 
+183 - psnr: 25.798803117540146, ssim: 0.936569348971049
+Epoch:183/500
+Total Loss: 0.24741 || Val Loss: 0.24342 
+184 - psnr: 25.619118531545002, ssim: 0.9358966337309943
+Epoch:184/500
+Total Loss: 0.24512 || Val Loss: 0.25698 
+185 - psnr: 25.671620686848957, ssim: 0.9359228491783143
+Epoch:185/500
+Total Loss: 0.24195 || Val Loss: 0.23900 
+186 - psnr: 26.22380675209893, ssim: 0.9380712668100993
+Epoch:186/500
+Total Loss: 0.24128 || Val Loss: 0.23409 
+187 - psnr: 25.66614532470703, ssim: 0.9368626726998224
+Epoch:187/500
+Total Loss: 0.24008 || Val Loss: 0.24274 
+188 - psnr: 23.15636176533169, ssim: 0.9219613525602552
+Epoch:188/500
+Total Loss: 0.24848 || Val Loss: 0.23603 
+189 - psnr: 25.426271544562447, ssim: 0.928481384118398
+Epoch:189/500
+Total Loss: 0.25425 || Val Loss: 0.21829 
+190 - psnr: 26.494249926673042, ssim: 0.9364925834867689
+Epoch:190/500
+Total Loss: 0.24623 || Val Loss: 0.23039 
+191 - psnr: 26.469586743248833, ssim: 0.934318557050493
+Epoch:191/500
+Total Loss: 0.24367 || Val Loss: 0.23372 
+192 - psnr: 26.073053624894882, ssim: 0.9353521956337822
+Epoch:192/500
+Total Loss: 0.24045 || Val Loss: 0.21896 
+193 - psnr: 25.816196971469456, ssim: 0.9362319310506185
+Epoch:193/500
+Total Loss: 0.24190 || Val Loss: 0.23892 
+194 - psnr: 26.48330471250746, ssim: 0.9372231072849697
+Epoch:194/500
+Total Loss: 0.24248 || Val Loss: 0.21862 
+195 - psnr: 24.154559400346542, ssim: 0.9307065274980333
+Epoch:195/500
+Total Loss: 0.24468 || Val Loss: 0.24776 
+196 - psnr: 26.214807351430256, ssim: 0.930346793598599
+Epoch:196/500
+Total Loss: 0.24938 || Val Loss: 0.23800 
+197 - psnr: 25.589118162790935, ssim: 0.933692032761044
+Epoch:197/500
+Total Loss: 0.24513 || Val Loss: 0.23406 
+198 - psnr: 25.614368809594048, ssim: 0.9364875846438938
+Epoch:198/500
+Total Loss: 0.24336 || Val Loss: 0.22527 
+199 - psnr: 25.35393460591634, ssim: 0.9355980263815986
+Epoch:199/500
+Total Loss: 0.24224 || Val Loss: 0.22949 
+200 - psnr: 26.411781469980877, ssim: 0.9341649731000264
+Epoch:200/500
+Total Loss: 0.24336 || Val Loss: 0.21847 
+201 - psnr: 25.44358910454644, ssim: 0.9239037421014574
+Epoch:201/500
+Total Loss: 0.24791 || Val Loss: 0.22482 
+202 - psnr: 25.948636213938396, ssim: 0.9336691551738315
+Epoch:202/500
+Total Loss: 0.25103 || Val Loss: 0.21697 
+203 - psnr: 26.786282804277207, ssim: 0.9349564499325222
+Epoch:203/500
+Total Loss: 0.24498 || Val Loss: 0.21585 
+204 - psnr: 26.973835680219864, ssim: 0.9374563760227628
+Epoch:204/500
+Total Loss: 0.24140 || Val Loss: 0.21662 
+Best model saved at epoch —— 204, metric —— 26.973835680219864
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+205 - psnr: 26.515359984503853, ssim: 0.937148368358612
+Epoch:205/500
+Total Loss: 0.24057 || Val Loss: 0.22402 
+206 - psnr: 26.8234920501709, ssim: 0.938659562004937
+Epoch:206/500
+Total Loss: 0.24144 || Val Loss: 0.21760 
+207 - psnr: 25.79587909910414, ssim: 0.9212449630101521
+Epoch:207/500
+Total Loss: 0.24725 || Val Loss: 0.22062 
+208 - psnr: 24.492785718705917, ssim: 0.931899881362915
+Epoch:208/500
+Total Loss: 0.24680 || Val Loss: 0.22684 
+209 - psnr: 23.47717311647203, ssim: 0.9152407142851088
+Epoch:209/500
+Total Loss: 0.24511 || Val Loss: 0.22513 
+210 - psnr: 26.390944215986465, ssim: 0.933530741267734
+Epoch:210/500
+Total Loss: 0.24633 || Val Loss: 0.21946 
+211 - psnr: 26.05606402291192, ssim: 0.9318153089947171
+Epoch:211/500
+Total Loss: 0.24172 || Val Loss: 0.23614 
+212 - psnr: 25.965568118625217, ssim: 0.9376411014133029
+Epoch:212/500
+Total Loss: 0.24239 || Val Loss: 0.23446 
+213 - psnr: 26.184381432003445, ssim: 0.9343843672010633
+Epoch:213/500
+Total Loss: 0.24209 || Val Loss: 0.24667 
+214 - psnr: 25.895611498090958, ssim: 0.9360474785168965
+Epoch:214/500
+Total Loss: 0.24186 || Val Loss: 0.22970 
+215 - psnr: 21.689358101950752, ssim: 0.9011951552497016
+Epoch:215/500
+Total Loss: 0.24506 || Val Loss: 0.25717 
+216 - psnr: 25.946132236056858, ssim: 0.9344089203410678
+Epoch:216/500
+Total Loss: 0.25517 || Val Loss: 0.22346 
+217 - psnr: 26.13181718190511, ssim: 0.9367584904034932
+Epoch:217/500
+Total Loss: 0.24405 || Val Loss: 0.22972 
+218 - psnr: 25.783925109439426, ssim: 0.9355075611008539
+Epoch:218/500
+Total Loss: 0.24540 || Val Loss: 0.22276 
+219 - psnr: 25.640067683325874, ssim: 0.9357127295600043
+Epoch:219/500
+Total Loss: 0.24505 || Val Loss: 0.23464 
+220 - psnr: 26.153751161363388, ssim: 0.9376332812839084
+Epoch:220/500
+Total Loss: 0.24806 || Val Loss: 0.23796 
+221 - psnr: 26.251250478956436, ssim: 0.9345123317506578
+Epoch:221/500
+Total Loss: 0.24654 || Val Loss: 0.22393 
+222 - psnr: 26.63930214775933, ssim: 0.9389280200004577
+Epoch:222/500
+Total Loss: 0.24431 || Val Loss: 0.23736 
+223 - psnr: 26.826304382748074, ssim: 0.9404226316346063
+Epoch:223/500
+Total Loss: 0.24117 || Val Loss: 0.22481 
+224 - psnr: 26.76682292090522, ssim: 0.9402792917357551
+Epoch:224/500
+Total Loss: 0.24116 || Val Loss: 0.22557 
+225 - psnr: 26.075794590844048, ssim: 0.9405643542607626
+Epoch:225/500
+Total Loss: 0.23894 || Val Loss: 0.23566 
+226 - psnr: 26.60078700383504, ssim: 0.9360210405455696
+Epoch:226/500
+Total Loss: 0.24365 || Val Loss: 0.24130 
+227 - psnr: 24.734388457404243, ssim: 0.931235138575236
+Epoch:227/500
+Total Loss: 0.24855 || Val Loss: 0.22589 
+228 - psnr: 25.94841734568278, ssim: 0.9357286148601108
+Epoch:228/500
+Total Loss: 0.24862 || Val Loss: 0.23199 
+229 - psnr: 26.774025652143692, ssim: 0.9407393601205614
+Epoch:229/500
+Total Loss: 0.24139 || Val Loss: 0.23931 
+230 - psnr: 26.62421554989285, ssim: 0.9406874577204386
+Epoch:230/500
+Total Loss: 0.23985 || Val Loss: 0.24689 
+231 - psnr: 26.448998557196724, ssim: 0.9387728479173448
+Epoch:231/500
+Total Loss: 0.24051 || Val Loss: 0.23472 
+232 - psnr: 25.807575702667236, ssim: 0.9384464184443156
+Epoch:232/500
+Total Loss: 0.24178 || Val Loss: 0.25006 
+233 - psnr: 25.566816541883682, ssim: 0.9336188170644972
+Epoch:233/500
+Total Loss: 0.24411 || Val Loss: 0.21912 
+234 - psnr: 27.092882951100666, ssim: 0.9387212607595655
+Epoch:234/500
+Total Loss: 0.24185 || Val Loss: 0.22418 
+Best model saved at epoch —— 234, metric —— 27.092882951100666
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+235 - psnr: 26.596992757585312, ssim: 0.9374935176637438
+Epoch:235/500
+Total Loss: 0.24128 || Val Loss: 0.23607 
+236 - psnr: 25.913623174031574, ssim: 0.9371588640742832
+Epoch:236/500
+Total Loss: 0.24088 || Val Loss: 0.23725 
+237 - psnr: 25.98629527621799, ssim: 0.9397953192392985
+Epoch:237/500
+Total Loss: 0.23937 || Val Loss: 0.23768 
+238 - psnr: 26.475868860880535, ssim: 0.9409096426433987
+Epoch:238/500
+Total Loss: 0.24748 || Val Loss: 0.25611 
+239 - psnr: 25.798109531402588, ssim: 0.9362740264998541
+Epoch:239/500
+Total Loss: 0.24329 || Val Loss: 0.23026 
+240 - psnr: 24.9065809779697, ssim: 0.9257777320014106
+Epoch:240/500
+Total Loss: 0.24726 || Val Loss: 0.23994 
+241 - psnr: 26.099754068586563, ssim: 0.9373497539096408
+Epoch:241/500
+Total Loss: 0.24449 || Val Loss: 0.22860 
+242 - psnr: 25.918357054392498, ssim: 0.9357652889357673
+Epoch:242/500
+Total Loss: 0.24207 || Val Loss: 0.25934 
+243 - psnr: 26.16878514819675, ssim: 0.9386717226770189
+Epoch:243/500
+Total Loss: 0.24127 || Val Loss: 0.24020 
+244 - psnr: 26.293847031063503, ssim: 0.9393488102489047
+Epoch:244/500
+Total Loss: 0.23982 || Val Loss: 0.23844 
+245 - psnr: 26.48301288816664, ssim: 0.9410724533928765
+Epoch:245/500
+Total Loss: 0.24127 || Val Loss: 0.22711 
+246 - psnr: 26.412927680545383, ssim: 0.9395337873035007
+Epoch:246/500
+Total Loss: 0.24140 || Val Loss: 0.22698 
+247 - psnr: 26.41549237569173, ssim: 0.9393568979369269
+Epoch:247/500
+Total Loss: 0.24005 || Val Loss: 0.23147 
+248 - psnr: 26.789002630445694, ssim: 0.9411127885182698
+Epoch:248/500
+Total Loss: 0.23854 || Val Loss: 0.22930 
+249 - psnr: 26.608528296152752, ssim: 0.9404820164044698
+Epoch:249/500
+Total Loss: 0.23736 || Val Loss: 0.22711 
+250 - psnr: 26.862173133426243, ssim: 0.9394813232951694
+Epoch:250/500
+Total Loss: 0.23777 || Val Loss: 0.23600 
+251 - psnr: 25.857993284861248, ssim: 0.9290242102411058
+Epoch:251/500
+Total Loss: 0.24267 || Val Loss: 0.23433 
+252 - psnr: 26.79557900958591, ssim: 0.9421455568737453
+Epoch:252/500
+Total Loss: 0.24290 || Val Loss: 0.22921 
+253 - psnr: 26.557527912987602, ssim: 0.9327702720959982
+Epoch:253/500
+Total Loss: 0.24178 || Val Loss: 0.24632 
+254 - psnr: 26.372762468126083, ssim: 0.9382578439182705
+Epoch:254/500
+Total Loss: 0.24058 || Val Loss: 0.23033 
+255 - psnr: 26.343421989017063, ssim: 0.9381331245104472
+Epoch:255/500
+Total Loss: 0.23902 || Val Loss: 0.23121 
+256 - psnr: 26.327041255103218, ssim: 0.9393041279580858
+Epoch:256/500
+Total Loss: 0.23841 || Val Loss: 0.22605 
+257 - psnr: 25.670643223656548, ssim: 0.9350942942831252
+Epoch:257/500
+Total Loss: 0.23911 || Val Loss: 0.23447 
+258 - psnr: 23.91897487640381, ssim: 0.9258576936191982
+Epoch:258/500
+Total Loss: 0.24456 || Val Loss: 0.24678 
+259 - psnr: 26.510573652055527, ssim: 0.9401219142807855
+Epoch:259/500
+Total Loss: 0.24333 || Val Loss: 0.22815 
+260 - psnr: 25.946590423583984, ssim: 0.9360095222791036
+Epoch:260/500
+Total Loss: 0.23868 || Val Loss: 0.24883 
+261 - psnr: 25.834860695732964, ssim: 0.9377578934033711
+Epoch:261/500
+Total Loss: 0.23906 || Val Loss: 0.24322 
+262 - psnr: 25.26427369647556, ssim: 0.9358705692821079
+Epoch:262/500
+Total Loss: 0.23839 || Val Loss: 0.24464 
+263 - psnr: 25.215427186754013, ssim: 0.9371706618203057
+Epoch:263/500
+Total Loss: 0.23894 || Val Loss: 0.25255 
+264 - psnr: 25.665798399183487, ssim: 0.9362022505866157
+Epoch:264/500
+Total Loss: 0.24044 || Val Loss: 0.23027 
+265 - psnr: 24.649814711676704, ssim: 0.9350955221388075
+Epoch:265/500
+Total Loss: 0.24085 || Val Loss: 0.23634 
+266 - psnr: 25.193458610110813, ssim: 0.9189025547769335
+Epoch:266/500
+Total Loss: 0.24675 || Val Loss: 0.23740 
+267 - psnr: 25.902487383948433, ssim: 0.9326812545458476
+Epoch:267/500
+Total Loss: 0.24508 || Val Loss: 0.22748 
+268 - psnr: 25.860606564415825, ssim: 0.9323640611436632
+Epoch:268/500
+Total Loss: 0.24312 || Val Loss: 0.22348 
+269 - psnr: 23.010671430163914, ssim: 0.9126187443733216
+Epoch:269/500
+Total Loss: 0.24330 || Val Loss: 0.28961 
+270 - psnr: 25.83023452758789, ssim: 0.9351968791749742
+Epoch:270/500
+Total Loss: 0.25060 || Val Loss: 0.23419 
+271 - psnr: 26.060119046105278, ssim: 0.9382233248816596
+Epoch:271/500
+Total Loss: 0.24655 || Val Loss: 0.23405 
+272 - psnr: 26.711661285824245, ssim: 0.9398749099837409
+Epoch:272/500
+Total Loss: 0.24093 || Val Loss: 0.23373 
+273 - psnr: 26.18961238861084, ssim: 0.9384650084707472
+Epoch:273/500
+Total Loss: 0.24114 || Val Loss: 0.23211 
+274 - psnr: 26.179868963029648, ssim: 0.9394285718599955
+Epoch:274/500
+Total Loss: 0.23922 || Val Loss: 0.22759 
+275 - psnr: 26.06639756096734, ssim: 0.9392068452305264
+Epoch:275/500
+Total Loss: 0.23918 || Val Loss: 0.23964 
+276 - psnr: 26.080895053015816, ssim: 0.9385804189576044
+Epoch:276/500
+Total Loss: 0.24164 || Val Loss: 0.23520 
+277 - psnr: 26.190811740027534, ssim: 0.9272740496529474
+Epoch:277/500
+Total Loss: 0.24907 || Val Loss: 0.26298 
+278 - psnr: 26.05748150083754, ssim: 0.9341829975446065
+Epoch:278/500
+Total Loss: 0.24291 || Val Loss: 0.23942 
+279 - psnr: 24.61671437157525, ssim: 0.9347972631454468
+Epoch:279/500
+Total Loss: 0.24036 || Val Loss: 0.25396 
+280 - psnr: 25.15685356987847, ssim: 0.9357688890563117
+Epoch:280/500
+Total Loss: 0.24015 || Val Loss: 0.25445 
+281 - psnr: 24.14265176984999, ssim: 0.9293589949607849
+Epoch:281/500
+Total Loss: 0.23932 || Val Loss: 0.28418 
+282 - psnr: 26.119677861531574, ssim: 0.9367107152938843
+Epoch:282/500
+Total Loss: 0.24024 || Val Loss: 0.23823 
+283 - psnr: 25.181431187523735, ssim: 0.9368739340040418
+Epoch:283/500
+Total Loss: 0.24106 || Val Loss: 0.25544 
+284 - psnr: 25.126314957936604, ssim: 0.935341809855567
+Epoch:284/500
+Total Loss: 0.24274 || Val Loss: 0.25616 
+285 - psnr: 23.918732934527927, ssim: 0.9286234153641595
+Epoch:285/500
+Total Loss: 0.24328 || Val Loss: 0.25183 
+286 - psnr: 24.21010332637363, ssim: 0.9289751132329305
+Epoch:286/500
+Total Loss: 0.23783 || Val Loss: 0.25035 
+287 - psnr: 23.79333186149597, ssim: 0.9271114932166206
+Epoch:287/500
+Total Loss: 0.23716 || Val Loss: 0.25456 
+288 - psnr: 24.55385865105523, ssim: 0.9315962235132853
+Epoch:288/500
+Total Loss: 0.23939 || Val Loss: 0.27225 
+289 - psnr: 24.55013550652398, ssim: 0.9333506756358676
+Epoch:289/500
+Total Loss: 0.24064 || Val Loss: 0.24795 
+290 - psnr: 25.536321957906086, ssim: 0.9393790086110433
+Epoch:290/500
+Total Loss: 0.24036 || Val Loss: 0.26053 
+291 - psnr: 25.46418963538276, ssim: 0.9348968545595805
+Epoch:291/500
+Total Loss: 0.23939 || Val Loss: 0.25665 
+292 - psnr: 25.506152153015137, ssim: 0.9365319914287991
+Epoch:292/500
+Total Loss: 0.23799 || Val Loss: 0.24211 
+293 - psnr: 24.74558793173896, ssim: 0.9329738113615248
+Epoch:293/500
+Total Loss: 0.23684 || Val Loss: 0.24892 
+294 - psnr: 24.720247904459637, ssim: 0.9356448001331753
+Epoch:294/500
+Total Loss: 0.23913 || Val Loss: 0.26317 
+295 - psnr: 25.798972129821777, ssim: 0.9386371122466193
+Epoch:295/500
+Total Loss: 0.23961 || Val Loss: 0.23950 
+296 - psnr: 24.313819779290093, ssim: 0.9330344703462389
+Epoch:296/500
+Total Loss: 0.23883 || Val Loss: 0.25705 
+297 - psnr: 24.654798613654243, ssim: 0.9355575455559625
+Epoch:297/500
+Total Loss: 0.23846 || Val Loss: 0.24349 
+298 - psnr: 25.747551918029785, ssim: 0.9379591531223721
+Epoch:298/500
+Total Loss: 0.23685 || Val Loss: 0.24906 
+299 - psnr: 25.33699920442369, ssim: 0.9367896185980903
+Epoch:299/500
+Total Loss: 0.23644 || Val Loss: 0.25327 
+300 - psnr: 24.931508753034805, ssim: 0.9357927918434144
+Epoch:300/500
+Total Loss: 0.23661 || Val Loss: 0.23517 
+301 - psnr: 25.893557442559135, ssim: 0.9406646132469177
+Epoch:301/500
+Total Loss: 0.23608 || Val Loss: 0.23908 
+302 - psnr: 25.507423294915093, ssim: 0.9355474379327562
+Epoch:302/500
+Total Loss: 0.24259 || Val Loss: 0.25548 
+303 - psnr: 24.646966695785522, ssim: 0.9305498374833001
+Epoch:303/500
+Total Loss: 0.24868 || Val Loss: 0.22805 
+304 - psnr: 26.25740024778578, ssim: 0.936782881948683
+Epoch:304/500
+Total Loss: 0.23952 || Val Loss: 0.22633 
+305 - psnr: 24.781082073847454, ssim: 0.9304974953333537
+Epoch:305/500
+Total Loss: 0.23792 || Val Loss: 0.22773 
+306 - psnr: 25.48995492193434, ssim: 0.9329340484407213
+Epoch:306/500
+Total Loss: 0.23812 || Val Loss: 0.22918 
+307 - psnr: 25.9626784324646, ssim: 0.9315084404415555
+Epoch:307/500
+Total Loss: 0.23912 || Val Loss: 0.24414 
+308 - psnr: 26.187997394137913, ssim: 0.9362145834498935
+Epoch:308/500
+Total Loss: 0.24114 || Val Loss: 0.23634 
+309 - psnr: 25.125289811028374, ssim: 0.9327002935939365
+Epoch:309/500
+Total Loss: 0.24301 || Val Loss: 0.22508 
+310 - psnr: 22.740722364849514, ssim: 0.9187234785821703
+Epoch:310/500
+Total Loss: 0.23860 || Val Loss: 0.25595 
+311 - psnr: 25.05586602952745, ssim: 0.9360674182573955
+Epoch:311/500
+Total Loss: 0.23730 || Val Loss: 0.24446 
+312 - psnr: 24.806735197703045, ssim: 0.9343539079030355
+Epoch:312/500
+Total Loss: 0.23662 || Val Loss: 0.24486 
+313 - psnr: 23.547671026653713, ssim: 0.9269070426623026
+Epoch:313/500
+Total Loss: 0.23683 || Val Loss: 0.26018 
+314 - psnr: 24.93012507756551, ssim: 0.9333825800153944
+Epoch:314/500
+Total Loss: 0.24212 || Val Loss: 0.25165 
+315 - psnr: 25.395311037699383, ssim: 0.9307715283499823
+Epoch:315/500
+Total Loss: 0.24417 || Val Loss: 0.24900 
+316 - psnr: 24.581289556291367, ssim: 0.9327372709910074
+Epoch:316/500
+Total Loss: 0.24408 || Val Loss: 0.24123 
+317 - psnr: 24.864046308729385, ssim: 0.9343951344490051
+Epoch:317/500
+Total Loss: 0.23898 || Val Loss: 0.25973 
+318 - psnr: 25.202684932284885, ssim: 0.9340267790688409
+Epoch:318/500
+Total Loss: 0.23816 || Val Loss: 0.25767 
+319 - psnr: 25.16982740826077, ssim: 0.9323147575060526
+Epoch:319/500
+Total Loss: 0.23820 || Val Loss: 0.25397 
+320 - psnr: 25.00271028942532, ssim: 0.9310461640357971
+Epoch:320/500
+Total Loss: 0.23978 || Val Loss: 0.24199 
+321 - psnr: 24.873301294114853, ssim: 0.9294703112708198
+Epoch:321/500
+Total Loss: 0.23937 || Val Loss: 0.24341 
+322 - psnr: 24.522784339057075, ssim: 0.9316955460442438
+Epoch:322/500
+Total Loss: 0.23872 || Val Loss: 0.25002 
+323 - psnr: 25.02597453859117, ssim: 0.9373517102665372
+Epoch:323/500
+Total Loss: 0.23841 || Val Loss: 0.27304 
+324 - psnr: 24.813282913631863, ssim: 0.9368491702609592
+Epoch:324/500
+Total Loss: 0.23694 || Val Loss: 0.23821 
+325 - psnr: 24.578767776489258, ssim: 0.9351312239964803
+Epoch:325/500
+Total Loss: 0.23571 || Val Loss: 0.23498 
+326 - psnr: 25.36688497331407, ssim: 0.9381731351216634
+Epoch:326/500
+Total Loss: 0.23761 || Val Loss: 0.24852 
+327 - psnr: 22.454063203599716, ssim: 0.9158080220222473
+Epoch:327/500
+Total Loss: 0.23935 || Val Loss: 0.25103 
+328 - psnr: 26.453203254275852, ssim: 0.9391117890675863
+Epoch:328/500
+Total Loss: 0.23966 || Val Loss: 0.22620 
+329 - psnr: 24.960453430811565, ssim: 0.9366659654511346
+Epoch:329/500
+Total Loss: 0.23692 || Val Loss: 0.23753 
+330 - psnr: 25.430826902389526, ssim: 0.9379379563861423
+Epoch:330/500
+Total Loss: 0.23677 || Val Loss: 0.23550 
+331 - psnr: 25.182758967081707, ssim: 0.9375435590744019
+Epoch:331/500
+Total Loss: 0.23568 || Val Loss: 0.23673 
+332 - psnr: 25.161172284020317, ssim: 0.9373049590322706
+Epoch:332/500
+Total Loss: 0.23675 || Val Loss: 0.23871 
+333 - psnr: 25.636925008561875, ssim: 0.9336789846420288
+Epoch:333/500
+Total Loss: 0.23944 || Val Loss: 0.25245 
+334 - psnr: 24.059369723002117, ssim: 0.9288943383428786
+Epoch:334/500
+Total Loss: 0.23839 || Val Loss: 0.25268 
+335 - psnr: 25.417272938622368, ssim: 0.9347266342904833
+Epoch:335/500
+Total Loss: 0.24083 || Val Loss: 0.23604 
+336 - psnr: 24.647683249579536, ssim: 0.9338338017463684
+Epoch:336/500
+Total Loss: 0.23481 || Val Loss: 0.25759 
+337 - psnr: 24.611903720431858, ssim: 0.9335443298021953
+Epoch:337/500
+Total Loss: 0.23490 || Val Loss: 0.25847 
+338 - psnr: 24.59831754366557, ssim: 0.9345233877499898
+Epoch:338/500
+Total Loss: 0.23441 || Val Loss: 0.24855 
+339 - psnr: 24.443709638383652, ssim: 0.9336329168743558
+Epoch:339/500
+Total Loss: 0.23769 || Val Loss: 0.25333 
+340 - psnr: 25.9700731171502, ssim: 0.9355582700835334
+Epoch:340/500
+Total Loss: 0.24074 || Val Loss: 0.23119 
+341 - psnr: 23.603284941779243, ssim: 0.9170422765943739
+Epoch:341/500
+Total Loss: 0.24053 || Val Loss: 0.25573 
+342 - psnr: 23.847617732154, ssim: 0.9322773509555393
+Epoch:342/500
+Total Loss: 0.24284 || Val Loss: 0.26303 
+343 - psnr: 24.295911841922337, ssim: 0.9339480188157824
+Epoch:343/500
+Total Loss: 0.23777 || Val Loss: 0.25090 
+344 - psnr: 24.85837395985921, ssim: 0.9372803767522176
+Epoch:344/500
+Total Loss: 0.23535 || Val Loss: 0.24574 
+345 - psnr: 22.47136221991645, ssim: 0.9195476757155524
+Epoch:345/500
+Total Loss: 0.23659 || Val Loss: 0.24945 
+346 - psnr: 25.54814248614841, ssim: 0.9375542614195082
+Epoch:346/500
+Total Loss: 0.23732 || Val Loss: 0.24997 
+347 - psnr: 25.280620257059734, ssim: 0.9332113464673361
+Epoch:347/500
+Total Loss: 0.24025 || Val Loss: 0.25654 
+348 - psnr: 25.577600214216446, ssim: 0.9371911485989889
+Epoch:348/500
+Total Loss: 0.23788 || Val Loss: 0.24581 
+349 - psnr: 24.669573095109726, ssim: 0.9334301008118524
+Epoch:349/500
+Total Loss: 0.23519 || Val Loss: 0.25138 
+350 - psnr: 26.05405553181966, ssim: 0.9390876359409757
+Epoch:350/500
+Total Loss: 0.23453 || Val Loss: 0.25902 
+351 - psnr: 25.251936859554714, ssim: 0.9350222892231411
+Epoch:351/500
+Total Loss: 0.23650 || Val Loss: 0.24836 
+352 - psnr: 24.23998573091295, ssim: 0.9309445844756232
+Epoch:352/500
+Total Loss: 0.23976 || Val Loss: 0.26346 
+353 - psnr: 22.175656451119316, ssim: 0.8961410429742601
+Epoch:353/500
+Total Loss: 0.25295 || Val Loss: 0.26102 
+354 - psnr: 26.47818109724257, ssim: 0.9295602771970961
+Epoch:354/500
+Total Loss: 0.25287 || Val Loss: 0.24706 
+355 - psnr: 26.314563751220703, ssim: 0.9266364216804505
+Epoch:355/500
+Total Loss: 0.24291 || Val Loss: 0.23975 
+356 - psnr: 26.613839043511284, ssim: 0.9304386324352688
+Epoch:356/500
+Total Loss: 0.24150 || Val Loss: 0.24968 
+357 - psnr: 26.978140460120308, ssim: 0.9354152348306444
+Epoch:357/500
+Total Loss: 0.24068 || Val Loss: 0.23082 
+358 - psnr: 26.03603156407674, ssim: 0.9370057106018066
+Epoch:358/500
+Total Loss: 0.24202 || Val Loss: 0.27000 
+359 - psnr: 25.76438946194119, ssim: 0.9332224422030979
+Epoch:359/500
+Total Loss: 0.24247 || Val Loss: 0.23885 
+360 - psnr: 23.515782647662693, ssim: 0.9258146180046929
+Epoch:360/500
+Total Loss: 0.24074 || Val Loss: 0.25115 
+361 - psnr: 25.764616012573242, ssim: 0.9372226119041442
+Epoch:361/500
+Total Loss: 0.23658 || Val Loss: 0.24059 
+362 - psnr: 25.335925261179607, ssim: 0.9366391327646043
+Epoch:362/500
+Total Loss: 0.23582 || Val Loss: 0.24703 
+363 - psnr: 25.027686331007217, ssim: 0.9363468964894612
+Epoch:363/500
+Total Loss: 0.23589 || Val Loss: 0.25261 
+364 - psnr: 24.64520115322537, ssim: 0.9331762843661838
+Epoch:364/500
+Total Loss: 0.23982 || Val Loss: 0.22424 
+365 - psnr: 25.538323561350506, ssim: 0.9379084494378832
+Epoch:365/500
+Total Loss: 0.24023 || Val Loss: 0.23409 
+366 - psnr: 25.03120337592231, ssim: 0.935471416844262
+Epoch:366/500
+Total Loss: 0.23868 || Val Loss: 0.22627 
+367 - psnr: 24.92759641011556, ssim: 0.9363816764619616
+Epoch:367/500
+Total Loss: 0.23467 || Val Loss: 0.23595 
+368 - psnr: 24.18723572625054, ssim: 0.9343979663319057
+Epoch:368/500
+Total Loss: 0.23495 || Val Loss: 0.25140 
+369 - psnr: 24.950955867767334, ssim: 0.9369297782580058
+Epoch:369/500
+Total Loss: 0.23399 || Val Loss: 0.24076 
+370 - psnr: 25.67382028367784, ssim: 0.934595176908705
+Epoch:370/500
+Total Loss: 0.23695 || Val Loss: 0.24769 
+371 - psnr: 25.299564838409424, ssim: 0.9356282578574286
+Epoch:371/500
+Total Loss: 0.24001 || Val Loss: 0.24283 
+372 - psnr: 25.404433303409153, ssim: 0.9377207451396519
+Epoch:372/500
+Total Loss: 0.24164 || Val Loss: 0.23955 
+373 - psnr: 24.84297667609321, ssim: 0.9345447633001539
+Epoch:373/500
+Total Loss: 0.23663 || Val Loss: 0.25177 
+374 - psnr: 25.115578492482502, ssim: 0.9332444270451864
+Epoch:374/500
+Total Loss: 0.23691 || Val Loss: 0.26334 
+375 - psnr: 24.989517900678848, ssim: 0.9337450385093689
+Epoch:375/500
+Total Loss: 0.23496 || Val Loss: 0.25272 
+376 - psnr: 24.509829733106827, ssim: 0.9346014420191447
+Epoch:376/500
+Total Loss: 0.23456 || Val Loss: 0.26623 
+377 - psnr: 26.20121881696913, ssim: 0.9385101570023431
+Epoch:377/500
+Total Loss: 0.23899 || Val Loss: 0.26311 
+378 - psnr: 26.278388182322185, ssim: 0.9298364268408881
+Epoch:378/500
+Total Loss: 0.24127 || Val Loss: 0.23720 
+379 - psnr: 26.182164033253986, ssim: 0.9346766644053989
+Epoch:379/500
+Total Loss: 0.23986 || Val Loss: 0.27219 
+380 - psnr: 25.925792588127983, ssim: 0.9371038423644171
+Epoch:380/500
+Total Loss: 0.23612 || Val Loss: 0.24837 
+381 - psnr: 26.079917483859592, ssim: 0.9370098882251315
+Epoch:381/500
+Total Loss: 0.23563 || Val Loss: 0.25098 
+382 - psnr: 26.051090293460422, ssim: 0.9377956019507514
+Epoch:382/500
+Total Loss: 0.23413 || Val Loss: 0.25922 
+383 - psnr: 26.94082196553548, ssim: 0.9410499268107944
+Epoch:383/500
+Total Loss: 0.23466 || Val Loss: 0.24944 
+384 - psnr: 25.070572164323593, ssim: 0.9322649108039008
+Epoch:384/500
+Total Loss: 0.23839 || Val Loss: 0.25033 
+385 - psnr: 25.82241694132487, ssim: 0.9387222131093343
+Epoch:385/500
+Total Loss: 0.23887 || Val Loss: 0.25168 
+386 - psnr: 25.895476447211372, ssim: 0.9416891800032722
+Epoch:386/500
+Total Loss: 0.23662 || Val Loss: 0.24033 
+387 - psnr: 26.464144865671795, ssim: 0.9410574158032735
+Epoch:387/500
+Total Loss: 0.23523 || Val Loss: 0.25348 
+388 - psnr: 26.451088110605877, ssim: 0.9410552170541552
+Epoch:388/500
+Total Loss: 0.23512 || Val Loss: 0.25533 
+389 - psnr: 25.22206825680203, ssim: 0.9344071533944872
+Epoch:389/500
+Total Loss: 0.23396 || Val Loss: 0.27328 
+390 - psnr: 26.532871617211235, ssim: 0.9298175056775411
+Epoch:390/500
+Total Loss: 0.24165 || Val Loss: 0.22628 
+391 - psnr: 26.317605283525253, ssim: 0.9287761860423618
+Epoch:391/500
+Total Loss: 0.24247 || Val Loss: 0.23249 
+392 - psnr: 24.839281876881916, ssim: 0.9293845521079169
+Epoch:392/500
+Total Loss: 0.23722 || Val Loss: 0.26984 
+393 - psnr: 25.93318944507175, ssim: 0.9339215318361919
+Epoch:393/500
+Total Loss: 0.23613 || Val Loss: 0.23669 
+394 - psnr: 25.935983392927383, ssim: 0.9355693644947476
+Epoch:394/500
+Total Loss: 0.23438 || Val Loss: 0.24051 
+395 - psnr: 25.530844264560276, ssim: 0.9372811290952895
+Epoch:395/500
+Total Loss: 0.23656 || Val Loss: 0.23946 
+396 - psnr: 23.529098563724094, ssim: 0.9278788142734103
+Epoch:396/500
+Total Loss: 0.23738 || Val Loss: 0.26369 
+397 - psnr: 26.405622800191242, ssim: 0.938957957426707
+Epoch:397/500
+Total Loss: 0.24124 || Val Loss: 0.23128 
+398 - psnr: 25.80512507756551, ssim: 0.936877637439304
+Epoch:398/500
+Total Loss: 0.24294 || Val Loss: 0.23691 
+399 - psnr: 26.652893649207222, ssim: 0.9392614324887594
+Epoch:399/500
+Total Loss: 0.23809 || Val Loss: 0.23505 
+400 - psnr: 26.60802231894599, ssim: 0.9393637670411004
+Epoch:400/500
+Total Loss: 0.23532 || Val Loss: 0.24074 
+401 - psnr: 25.97417328092787, ssim: 0.9380898925993177
+Epoch:401/500
+Total Loss: 0.23663 || Val Loss: 0.26208 
+402 - psnr: 26.323473983340794, ssim: 0.9395469003253513
+Epoch:402/500
+Total Loss: 0.23711 || Val Loss: 0.23576 
+403 - psnr: 23.968551264868843, ssim: 0.9299835602442423
+Epoch:403/500
+Total Loss: 0.23943 || Val Loss: 0.24609 
+404 - psnr: 25.03568654590183, ssim: 0.9295541471905179
+Epoch:404/500
+Total Loss: 0.23946 || Val Loss: 0.22259 
+405 - psnr: 24.857954608069527, ssim: 0.9340022961298625
+Epoch:405/500
+Total Loss: 0.23599 || Val Loss: 0.23917 
+406 - psnr: 25.179640028211807, ssim: 0.9363866978221469
+Epoch:406/500
+Total Loss: 0.23345 || Val Loss: 0.23808 
+407 - psnr: 26.124010403951008, ssim: 0.9361320349905226
+Epoch:407/500
+Total Loss: 0.23508 || Val Loss: 0.25640 
+408 - psnr: 26.142502307891846, ssim: 0.9391363832685683
+Epoch:408/500
+Total Loss: 0.23469 || Val Loss: 0.25412 
+409 - psnr: 23.300393104553223, ssim: 0.923419349723392
+Epoch:409/500
+Total Loss: 0.23711 || Val Loss: 0.29040 
+410 - psnr: 23.84806744257609, ssim: 0.9323595311906603
+Epoch:410/500
+Total Loss: 0.23706 || Val Loss: 0.27692 
+411 - psnr: 25.510053316752117, ssim: 0.937912032339308
+Epoch:411/500
+Total Loss: 0.23503 || Val Loss: 0.24381 
+412 - psnr: 25.131735430823433, ssim: 0.9358822491433886
+Epoch:412/500
+Total Loss: 0.23239 || Val Loss: 0.23898 
+413 - psnr: 24.43977869881524, ssim: 0.9342117839389377
+Epoch:413/500
+Total Loss: 0.23218 || Val Loss: 0.24166 
+414 - psnr: 26.614469528198242, ssim: 0.941386444038815
+Epoch:414/500
+Total Loss: 0.23290 || Val Loss: 0.23643 
+415 - psnr: 23.566506173875595, ssim: 0.9276517907778422
+Epoch:415/500
+Total Loss: 0.23820 || Val Loss: 0.27293 
+416 - psnr: 25.61331452263726, ssim: 0.9274913191795349
+Epoch:416/500
+Total Loss: 0.26000 || Val Loss: 0.21968 
+417 - psnr: 25.859260347154404, ssim: 0.9352289782630072
+Epoch:417/500
+Total Loss: 0.24468 || Val Loss: 0.25375 
+418 - psnr: 25.59497086207072, ssim: 0.9344213710890876
+Epoch:418/500
+Total Loss: 0.24048 || Val Loss: 0.23255 
+419 - psnr: 25.06201622221205, ssim: 0.9329394512706333
+Epoch:419/500
+Total Loss: 0.23848 || Val Loss: 0.24007 
+420 - psnr: 25.186874124738907, ssim: 0.9346768074565464
+Epoch:420/500
+Total Loss: 0.23886 || Val Loss: 0.23580 
+421 - psnr: 25.807674090067547, ssim: 0.9339752289983961
+Epoch:421/500
+Total Loss: 0.23800 || Val Loss: 0.23951 
+422 - psnr: 23.51831038792928, ssim: 0.9283003475930955
+Epoch:422/500
+Total Loss: 0.24133 || Val Loss: 0.24795 
+423 - psnr: 26.35622845755683, ssim: 0.9395926660961575
+Epoch:423/500
+Total Loss: 0.23688 || Val Loss: 0.24877 
+424 - psnr: 25.049679650200737, ssim: 0.9378545085589091
+Epoch:424/500
+Total Loss: 0.23494 || Val Loss: 0.24925 
+425 - psnr: 25.415488455030655, ssim: 0.938852866490682
+Epoch:425/500
+Total Loss: 0.23396 || Val Loss: 0.24636 
+426 - psnr: 25.45964166853163, ssim: 0.9369075192345513
+Epoch:426/500
+Total Loss: 0.23351 || Val Loss: 0.24267 
+427 - psnr: 25.748332023620605, ssim: 0.9382520622677273
+Epoch:427/500
+Total Loss: 0.23896 || Val Loss: 0.25255 
+428 - psnr: 25.52424912982517, ssim: 0.9395305898454455
+Epoch:428/500
+Total Loss: 0.23823 || Val Loss: 0.24729 
+429 - psnr: 26.09585926267836, ssim: 0.9392937448289659
+Epoch:429/500
+Total Loss: 0.23724 || Val Loss: 0.23871 
+430 - psnr: 25.70749118593004, ssim: 0.9389356255531311
+Epoch:430/500
+Total Loss: 0.23562 || Val Loss: 0.25454 
+431 - psnr: 25.462620735168457, ssim: 0.9388280868530273
+Epoch:431/500
+Total Loss: 0.23391 || Val Loss: 0.25354 
+432 - psnr: 24.61265590455797, ssim: 0.9364544947942098
+Epoch:432/500
+Total Loss: 0.23368 || Val Loss: 0.25655 
+433 - psnr: 26.492996321784126, ssim: 0.9361890157063802
+Epoch:433/500
+Total Loss: 0.24096 || Val Loss: 0.23093 
+434 - psnr: 26.326737297905815, ssim: 0.9388958189222548
+Epoch:434/500
+Total Loss: 0.23714 || Val Loss: 0.23214 
+435 - psnr: 24.305327256520588, ssim: 0.9330348134040832
+Epoch:435/500
+Total Loss: 0.23576 || Val Loss: 0.25489 
+436 - psnr: 25.664770285288494, ssim: 0.9410304347674052
+Epoch:436/500
+Total Loss: 0.23490 || Val Loss: 0.25335 
+437 - psnr: 25.22980711195204, ssim: 0.9383126364813911
+Epoch:437/500
+Total Loss: 0.23361 || Val Loss: 0.24148 
+438 - psnr: 25.805686208936905, ssim: 0.9390970415539212
+Epoch:438/500
+Total Loss: 0.23426 || Val Loss: 0.23520 
+439 - psnr: 25.687520186106365, ssim: 0.9393778536054823
+Epoch:439/500
+Total Loss: 0.23481 || Val Loss: 0.24663 
+440 - psnr: 25.11258586247762, ssim: 0.9389474378691779
+Epoch:440/500
+Total Loss: 0.23433 || Val Loss: 0.24002 
+441 - psnr: 26.046701007419163, ssim: 0.9367168996069166
+Epoch:441/500
+Total Loss: 0.23910 || Val Loss: 0.24240 
+442 - psnr: 25.517421033647324, ssim: 0.9380196624332005
+Epoch:442/500
+Total Loss: 0.23739 || Val Loss: 0.27476 
+443 - psnr: 25.316051324208576, ssim: 0.9387459105915493
+Epoch:443/500
+Total Loss: 0.23510 || Val Loss: 0.26518 
+444 - psnr: 25.50472805235121, ssim: 0.9388855006959703
+Epoch:444/500
+Total Loss: 0.23360 || Val Loss: 0.26647 
+445 - psnr: 25.197728421952988, ssim: 0.9383869926134746
+Epoch:445/500
+Total Loss: 0.23450 || Val Loss: 0.25829 
+446 - psnr: 25.78606192270915, ssim: 0.9368574062983195
+Epoch:446/500
+Total Loss: 0.23657 || Val Loss: 0.24092 
+447 - psnr: 23.97860222392612, ssim: 0.9301501856909857
+Epoch:447/500
+Total Loss: 0.23761 || Val Loss: 0.22843 
+448 - psnr: 25.293073866102432, ssim: 0.9366744478543599
+Epoch:448/500
+Total Loss: 0.24032 || Val Loss: 0.24635 
+449 - psnr: 25.511940797170002, ssim: 0.9376231524679396
+Epoch:449/500
+Total Loss: 0.23410 || Val Loss: 0.23968 
+450 - psnr: 25.801092836591934, ssim: 0.9400715841187371
+Epoch:450/500
+Total Loss: 0.23454 || Val Loss: 0.23981 
+451 - psnr: 25.625951078202988, ssim: 0.939382365014818
+Epoch:451/500
+Total Loss: 0.23556 || Val Loss: 0.23562 
+452 - psnr: 26.817234092288547, ssim: 0.93972919649548
+Epoch:452/500
+Total Loss: 0.23559 || Val Loss: 0.24255 
+453 - psnr: 25.79489066865709, ssim: 0.9344733966721429
+Epoch:453/500
+Total Loss: 0.24137 || Val Loss: 0.22695 
+454 - psnr: 25.41156874762641, ssim: 0.9345348993937175
+Epoch:454/500
+Total Loss: 0.23911 || Val Loss: 0.22984 
+455 - psnr: 25.358014000786675, ssim: 0.9361753463745117
+Epoch:455/500
+Total Loss: 0.23677 || Val Loss: 0.24429 
+456 - psnr: 25.632935047149658, ssim: 0.9383512682384915
+Epoch:456/500
+Total Loss: 0.23451 || Val Loss: 0.24460 
+457 - psnr: 25.721996360354954, ssim: 0.939702578385671
+Epoch:457/500
+Total Loss: 0.23374 || Val Loss: 0.24134 
+458 - psnr: 27.552961508433025, ssim: 0.9406244529618157
+Epoch:458/500
+Total Loss: 0.23384 || Val Loss: 0.23137 
+Best model saved at epoch —— 458, metric —— 27.552961508433025
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+459 - psnr: 23.83801661597358, ssim: 0.9325992239846124
+Epoch:459/500
+Total Loss: 0.23715 || Val Loss: 0.24976 
+460 - psnr: 24.452311356862385, ssim: 0.9343341416782803
+Epoch:460/500
+Total Loss: 0.23954 || Val Loss: 0.27277 
+461 - psnr: 24.12670871946547, ssim: 0.9337131579717001
+Epoch:461/500
+Total Loss: 0.23764 || Val Loss: 0.26006 
+462 - psnr: 25.41961447397868, ssim: 0.9388411005338033
+Epoch:462/500
+Total Loss: 0.23460 || Val Loss: 0.27176 
+463 - psnr: 24.852555221981472, ssim: 0.9377644300460816
+Epoch:463/500
+Total Loss: 0.23408 || Val Loss: 0.26158 
+464 - psnr: 26.33345095316569, ssim: 0.9376664598782857
+Epoch:464/500
+Total Loss: 0.23464 || Val Loss: 0.24995 
+465 - psnr: 23.890504678090412, ssim: 0.9272169219122992
+Epoch:465/500
+Total Loss: 0.23525 || Val Loss: 0.26619 
+466 - psnr: 23.599369313981796, ssim: 0.9306327250268724
+Epoch:466/500
+Total Loss: 0.23581 || Val Loss: 0.30287 
+467 - psnr: 24.621228165096706, ssim: 0.9359946740998162
+Epoch:467/500
+Total Loss: 0.23902 || Val Loss: 0.25187 
+468 - psnr: 24.550524605645073, ssim: 0.937794460190667
+Epoch:468/500
+Total Loss: 0.23382 || Val Loss: 0.27234 
+469 - psnr: 24.63662380642361, ssim: 0.9378283500671387
+Epoch:469/500
+Total Loss: 0.23250 || Val Loss: 0.28008 
+470 - psnr: 24.5055316819085, ssim: 0.9372993681165908
+Epoch:470/500
+Total Loss: 0.23227 || Val Loss: 0.27525 
+471 - psnr: 24.35114065806071, ssim: 0.936513364315033
+Epoch:471/500
+Total Loss: 0.23490 || Val Loss: 0.27513 
+472 - psnr: 24.91269848081801, ssim: 0.9363538874520196
+Epoch:472/500
+Total Loss: 0.23472 || Val Loss: 0.25503 
+473 - psnr: 25.310843255784775, ssim: 0.9381520721647475
+Epoch:473/500
+Total Loss: 0.23550 || Val Loss: 0.27415 
+474 - psnr: 24.956459840138752, ssim: 0.9366591797934638
+Epoch:474/500
+Total Loss: 0.23325 || Val Loss: 0.24296 
+475 - psnr: 25.494382911258274, ssim: 0.9395990331967672
+Epoch:475/500
+Total Loss: 0.23358 || Val Loss: 0.25079 
+476 - psnr: 24.502816889021133, ssim: 0.9347673270437452
+Epoch:476/500
+Total Loss: 0.23230 || Val Loss: 0.24859 
+477 - psnr: 24.041567007700603, ssim: 0.9330748187171088
+Epoch:477/500
+Total Loss: 0.23383 || Val Loss: 0.26465 
+478 - psnr: 25.17185507880317, ssim: 0.9390975859430101
+Epoch:478/500
+Total Loss: 0.23496 || Val Loss: 0.24146 
+479 - psnr: 24.58883089489407, ssim: 0.9378733952840169
+Epoch:479/500
+Total Loss: 0.23412 || Val Loss: 0.27395 
+480 - psnr: 25.544903384314644, ssim: 0.942180765999688
+Epoch:480/500
+Total Loss: 0.23296 || Val Loss: 0.25414 
+481 - psnr: 24.878590689765083, ssim: 0.9402598248587715
+Epoch:481/500
+Total Loss: 0.23266 || Val Loss: 0.25084 
+482 - psnr: 24.91146601570977, ssim: 0.9400273203849793
+Epoch:482/500
+Total Loss: 0.23243 || Val Loss: 0.25311 
+483 - psnr: 25.235518561469185, ssim: 0.9428064809905158
+Epoch:483/500
+Total Loss: 0.23222 || Val Loss: 0.23929 
+484 - psnr: 24.821030457814533, ssim: 0.9365418778525458
+Epoch:484/500
+Total Loss: 0.23535 || Val Loss: 0.26179 
+485 - psnr: 24.467812379201252, ssim: 0.9288545158174303
+Epoch:485/500
+Total Loss: 0.23578 || Val Loss: 0.31928 
+486 - psnr: 26.078264236450195, ssim: 0.9417008333735996
+Epoch:486/500
+Total Loss: 0.23448 || Val Loss: 0.26263 
+487 - psnr: 25.031069384680855, ssim: 0.9391979124810961
+Epoch:487/500
+Total Loss: 0.23340 || Val Loss: 0.23108
+488 - psnr: 27.712179978688557, ssim: 0.9466583397653368
+Epoch:488/500
+Total Loss: 0.23137 || Val Loss: 0.23122
+Best model saved at epoch —— 488, metric —— 27.712179978688557
+Best model saved to ./logs\2025_07_03_16_37_18\weights\best_metric_model.pth
+489 - psnr: 24.680459552341038, ssim: 0.9402228911717733
+Epoch:489/500
+Total Loss: 0.23307 || Val Loss: 0.26561 
+490 - psnr: 26.484363026089138, ssim: 0.9414558397399054
+Epoch:490/500
+Total Loss: 0.23489 || Val Loss: 0.23897 
+491 - psnr: 26.419356558058, ssim: 0.9421859701474508
+Epoch:491/500
+Total Loss: 0.23465 || Val Loss: 0.23540 
+492 - psnr: 22.81672912173801, ssim: 0.9245444191826715
+Epoch:492/500
+Total Loss: 0.24030 || Val Loss: 0.30410 
+493 - psnr: 25.141880141364204, ssim: 0.9376070088810391
+Epoch:493/500
+Total Loss: 0.23398 || Val Loss: 0.28832 
+494 - psnr: 24.945018185509575, ssim: 0.9371205661031935
+Epoch:494/500
+Total Loss: 0.23250 || Val Loss: 0.28239 
+495 - psnr: 24.21670463350084, ssim: 0.9364111317528618
+Epoch:495/500
+Total Loss: 0.23386 || Val Loss: 0.26686 
+496 - psnr: 24.85141552819146, ssim: 0.9366441938612197
+Epoch:496/500
+Total Loss: 0.23327 || Val Loss: 0.25003 
+497 - psnr: 24.995927969614666, ssim: 0.9383378267288208
+Epoch:497/500
+Total Loss: 0.23401 || Val Loss: 0.25922 
+498 - psnr: 25.38207223680284, ssim: 0.9079360961914062
+Epoch:498/500
+Total Loss: 0.24346 || Val Loss: 0.25137 
+499 - psnr: 25.776863363054062, ssim: 0.9346177127626207
+Epoch:499/500
+Total Loss: 0.23965 || Val Loss: 0.25096 
+500 - psnr: 25.813717948065865, ssim: 0.9347466309865315
+Epoch:500/500
+Total Loss: 0.23437 || Val Loss: 0.24793 
+Model saved at epoch 500 to ./logs\2025_07_03_16_37_18\weights\model_epoch_500.pth
